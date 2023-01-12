@@ -1,0 +1,50 @@
+/* 메모
+
+text-align: center; 중앙배치 
+margin:  -속성값에 따라 바깥쪽에 어디 위치에 여백을 줄 수 있다.
+margin-left 등등
+padding:  -속성값에 따라 안쪽에 어디 위치에 여백을 줄 수 있다.
+padding-left: 등등
+
+
+*/
+
+nav a{
+  text-decoration: none;
+  color: black;
+  margin: 2em;
+  font-size: 2em;
+}
+
+nav:first-child {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+nav:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#horizontal-underline{
+  position: absolute;
+  width: 0;
+  background-color: pink;
+  top: 0;
+  left:0;
+  height: 4px;
+  transition: 0.5s;
+  border-radius: 3px;
+}
+#vertical-underline{
+  position: absolute;
+  width: 0;
+  background-color: blue;
+  top: 0;
+  left:0;
+  height: 4px;
+  transition: 0.5s;
+  border-radius: 3px;
+}
